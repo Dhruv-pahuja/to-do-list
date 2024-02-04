@@ -12,7 +12,7 @@ ul li::before{
     height: 28px;
     width: 28px;
     border-radius: 50%;
-    background-image: url('../images/circle.png');
+    background-image: url('./images/circle.png');
     background-size: cover;
     background-position:center;
     top: 12px;
@@ -25,7 +25,7 @@ ul li::before{
 }
 
 .checked::before{
-    background-image: url('../images/tick.png');
+    background-image: url('./images/tick.png');
 }
 
 ul li span{
