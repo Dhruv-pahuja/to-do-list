@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do-list</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body class=" p-8 min-h-screen bg-gradient-to-r from-blue-500 via-sky-500  to-indigo-500 ">
+    <div id="to-do-app" class="w-[100%] max-w-[544px] bg-white pt-10 pl-[30px] pr-[30px] pb-16 mt-[100px] ml-auto mr-auto mb-[20px] rounded-xl">
+        <h2 class="font-semibold font-serif text-3xl text-[#1e2461] flex items-center mb-5">To-Do List</h2>
+        <div id="row" class="flex items-center justify-between bg-[#edeef0] rounded-[30px] pl-5 mb-6">
+            <input type="text" id="input-box" placeholder="add your task" class="flex-1 bg-transparent p-[10px] outline-none placeholder:text-slate-500 placeholder:italic">
+            <button onclick="addTask()" class="py-4 px-11 bg-[#fb8d00] rounded-[44px] outline-none text-white font-semibold cursor-pointer text-[17px]">Add</button>
+        </div>
+        <ul id="list-container">
+            <!-- <li id="checked">task1</li>
+            <li>task2</li>
+            <li>task3</li> -->
+
+
+        </ul>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
